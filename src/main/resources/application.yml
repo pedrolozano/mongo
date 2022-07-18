@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: mongo-service
+  main:
+    allow-bean-definition-overriding: true
+ 
+  data:
+    mongodb:
+      uri: "mongodb+srv://app:ul9ArSiCfetLbral@cluster0.ll32h.mongodb.net/test?keepAlive=true&poolSize=30&autoReconnect=true&socketTimeoutMS=5000&connectTimeoutMS=5000&heartbeatFrequencyMS=10000&ssl=true"
+      database: "test"
